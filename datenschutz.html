@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis – Datenschutzerklärung</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p><a href="index.html">← Jarvis</a></p>
+  <h1>Datenschutzerklärung</h1>
+  <p class="muted">Stand: 2. Oktober 2026</p>
+
+  <h2>1. Wer ist verantwortlich?</h2>
+  <p>Jarvis ist ein privat entwickeltes Programm ohne kommerziellen Zweck. Kontakt für alle Fragen zum
+  Datenschutz: <a href="mailto:wintermchl2@gmail.com">wintermchl2@gmail.com</a>.</p>
+
+  <h2>2. Grundsatz</h2>
+  <p>Jarvis ist eine Desktop-Anwendung, die ausschließlich auf deinem eigenen Windows-Computer läuft.
+  Der Entwickler betreibt keinen Server und erhält keine deiner Daten. Daten werden nicht verkauft,
+  nicht weitergegeben und nicht für Werbung verwendet.</p>
+
+  <h2>3. Welche Google-Daten Jarvis verwendet</h2>
+  <p>Wenn du dein Google-Konto verbindest, bittet Jarvis um folgende Berechtigungen:</p>
+  <ul>
+    <li><strong>Google Kalender – Termine</strong> (<code>calendar.events</code>): Termine in deinem
+      Hauptkalender lesen, erstellen, ändern und löschen. Jarvis nutzt das nur, um die Befehle auszuführen,
+      die du eingibst oder sprichst (z. B. „Trag morgen um 16 Uhr Zahnarzt ein“, „Was habe ich morgen?“),
+      und um deine Termine in der Termine-Ansicht anzuzeigen.</li>
+    <li><strong>E-Mail-Adresse</strong> (<code>openid</code>, <code>email</code>): Damit Jarvis anzeigen
+      kann, welches Konto verbunden ist, und mehrere Konten unterscheiden kann.</li>
+  </ul>
+  <p>Die Termindaten werden direkt zwischen deinem Computer und Google übertragen und von Jarvis nicht
+  dauerhaft gespeichert.</p>
+
+  <h2>4. Was auf deinem Computer gespeichert wird</h2>
+  <ul>
+    <li>Ein Anmelde-Token für Google, verschlüsselt mit der Windows-Datenschutz-API (nur dein
+      Windows-Benutzerkonto kann es entschlüsseln).</li>
+    <li>Einstellungen sowie ein Verlauf deiner Befehle und Antworten, damit du nachvollziehen kannst,
+      was Jarvis getan hat.</li>
+    <li>Technische Protokolle zur Fehlersuche.</li>
+  </ul>
+  <p>Alles liegt im Ordner <code>%APPDATA%\Jarvis</code> und kann jederzeit gelöscht werden.</p>
+
+  <h2>5. Spracheingabe und Sprachausgabe</h2>
+  <p>Die Spracherkennung läuft offline auf deinem Computer (Vosk). Es werden keine Audioaufnahmen
+  gespeichert oder übertragen. Die Sprachausgabe nutzt die in Windows eingebauten Stimmen.</p>
+
+  <h2>6. Google API Services User Data Policy</h2>
+  <p>Die Verwendung und Übertragung von Informationen, die Jarvis von Google-APIs erhält, entspricht der
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+  Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+  <h2>7. Zugriff widerrufen und Daten löschen</h2>
+  <ul>
+    <li>In Jarvis: Einstellungen → „Abmelden“. Das widerruft den Zugriff bei Google und löscht das
+      gespeicherte Token.</li>
+    <li>Bei Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+      → Jarvis → Zugriff entfernen.</li>
+    <li>Lokale Daten: den Ordner <code>%APPDATA%\Jarvis</code> löschen.</li>
+  </ul>
+
+  <h2>8. Deine Rechte</h2>
+  <p>Du hast das Recht auf Auskunft, Berichtigung und Löschung. Da der Entwickler keine Daten von dir
+  erhält, kannst du alle Daten selbst wie oben beschrieben einsehen und löschen. Bei Fragen schreib an die
+  oben genannte Adresse.</p>
+</main>
+</body>
+</html>

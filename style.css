@@ -1,0 +1,26 @@
+:root {
+  --bg: #070B12;
+  --surface: #101722;
+  --blue: #168BFF;
+  --blue-light: #4DB2FF;
+  --text: #F2F6FA;
+  --muted: #8C99A8;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 "Segoe UI", system-ui, sans-serif;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 16px 64px;
+}
+h1 { color: var(--blue-light); letter-spacing: 0.04em; margin-bottom: 4px; }
+h2 { font-size: 1.1rem; margin-top: 2rem; }
+a { color: var(--blue-light); }
+code { background: var(--surface); padding: 1px 5px; border-radius: 4px; }
+.lead { font-size: 1.15rem; }
+.muted { color: var(--muted); }
+li { margin-bottom: 0.4rem; }
